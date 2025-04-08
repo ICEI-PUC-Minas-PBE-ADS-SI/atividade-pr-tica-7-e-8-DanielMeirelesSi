@@ -1,0 +1,302 @@
+/* Cabeçalho */
+header {
+    background-color: #000; /* Fundo preto para destacar do fundo geral */
+    color: #fff; /* Texto branco para contraste */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: 1.5px; /* Para um efeito mais sofisticado */
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: #ff0000; /* Cor vermelha para os links */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #ff4d4d; /* Efeito hover mais suave */
+}
+/* Estilo do Cabeçalho */
+header {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    padding: 15px; /* Menor espaçamento */
+    text-align: center; /* Centralizar conteúdo */
+}
+
+/* Título do Cabeçalho */
+header h1 {
+    font-size: 40px; /* Título maior */
+    margin-bottom: 8px;
+}
+
+/* Navegação */
+nav ul {
+    display: flex; /* Itens na horizontal */
+    justify-content: center; /* Centralizado */
+    list-style: none; /* Sem marcadores */
+    padding: 0;
+    gap: 15px; /* Menor espaçamento entre os links */
+}
+
+nav a {
+    color: #fff; /* Texto branco */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: normal; /* Texto sem negrito */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Efeito simples ao passar o mouse */
+}
+
+/* Botões de Login e Configurações */
+.botoes-controle button {
+    background-color: #ff4d4d; /* Tom de vermelho claro*/
+    color: #fff;
+    border: 1px solid #ff4d4d;
+    border-radius: 12px; /* Bordas mais discretas */
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.botoes-controle button:hover {
+    background-color: #cc0000; /* Efeito simples */
+}
+
+/* Barra de Pesquisa */
+form {
+    margin-top: 10px;
+}
+
+form input[type="text"] {
+    width: 75%;
+    padding: 6px;
+    border: 1px solid #555; /* Cinza claro*/
+    border-radius: 12px; /* Bordas arredondadas */
+    background-color: #222; /* Fundo mais escuro */
+    color: #fff;
+}
+
+form button[type="submit"] {
+    background-color: #ff4d4d; /* Mesma cor dos botões */
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+form button[type="submit"]:hover {
+    background-color: #cc0000; /* Efeito no hover */
+}
+/* Títulos principais */
+h1, h2 {
+    color: #ff4d4d; /* vermelho */
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Títulos menores */
+h3, h4, h5 {
+    color: #fff; /* Texto branco para subtítulos menores */
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Textos comuns */
+p {
+    color: #ddd; /* Cinza claro para melhor leitura */
+    font-size: 16px;
+    line-height: 1.5; /* Espaçamento confortável */
+}
+
+/* Links no conteúdo principal */
+main a {
+    color: #ff4d4d; /* Vermelho  */
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline; /* Efeito discreto no hover */
+}
+/* Títulos */
+h1, h2 {
+    color: #ff0000; /* Vermelho */
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Textos e Links */
+p {
+    color: #ffffff; /* Branco */
+}
+
+a {
+    color: #ff0000; /* Vermelho */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Efeito suave na mudança de cor */
+}
+
+a:hover {
+    color: #ff4d4d; /* Vermelho mais claro no hover */
+}
+/* Exibição dos Filmes */
+.grid-filmes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Garante 4 filmes por linha */
+    gap: 20px; /* Espaçamento entre os filmes */
+    background-color: #222; /* Cinza escuro */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 100%; /* Evita que a área fique maior que a tela */
+}
+
+.filme {
+    background-color: #000; /* Fundo preto */
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%; /* Ocupa 100% da célula do grid */
+    max-width: 200px; /* Define o tamanho máximo */
+    margin: 0 auto; /* Centraliza no grid */
+}
+
+.filme img {
+    width: 100%; /* Se adapta automaticamente */
+    height: auto; /* Mantém a proporção */
+    border-radius: 8px;
+}
+
+.filme h3 {
+    color: #ff0000; /* Títulos em vermelho */
+}
+
+.filme p {
+    color: #ffffff; /* Texto em branco */
+}
+/* Fundo geral */
+body {
+    background-color: #181818; 
+    color: #fff; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; 
+}
+/* Filme em Destaque */
+.filme-destaque {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre imagem e texto */
+    background-color: #000; /* Fundo preto para destacar */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.filme-destaque .descricao { 
+    color: #fff;
+    max-width: 60%;
+    text-align: justify;
+    font-size: 25px; /* Aumentando o tamanho do texto */
+}
+
+.filme-destaque .descricao h3 {
+    color: #e50914; /* Título "Filme em Destaque" em vermelho */
+    font-size: 30px; /* Título um pouco maior para chamar atenção */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+/* Categorias */
+
+.menu-lateral {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    gap: 20px; /* Espaçamento entre os itens */
+    padding: 15px 0;
+}
+
+.menu-lateral ul {
+    list-style: none; 
+    padding: 0;
+    display: flex;
+    gap: 15px; 
+}
+
+.menu-lateral a {
+    color: #e50914; /* Vermelho para se destacar */
+    text-decoration: none;
+    font-weight: bold; 
+    font-size: 20px; /* Texto maior */
+    padding: 8px 15px;
+    border: 2px solid #e50914; /* Margem ao redor igual ao estilo de login/configurações */
+    border-radius: 8px;
+    transition: background 0.3s ease; /* Efeito suave ao passar o mouse */
+}
+
+.menu-lateral a:hover {
+    background-color: #e50914; /* Fica vermelho ao passar o mouse */
+    color: #000; /* Texto fica preto no hover */
+}
+/* Categorias abaixo do título */
+.grid-filmes .categoria {
+    background-color: #e50914; 
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 8px;
+    display: inline-block; /* Para não ocupar a largura total */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Botões de Login e Configurações */
+.botoes-controle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.botoes-controle button {
+    background-color: #e50914; 
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.botoes-controle button:hover {
+    background-color: #fff; 
+    color: #e50914;
+    border: 2px solid #e50914;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #ff4d4d;
+    text-decoration: none;
+    margin: 0 5px;
+}
