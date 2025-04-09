@@ -12,15 +12,26 @@ Leia o enunciado completo no Canvas.
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Daniel Meireles Aquino Jorge
+- Matricula: 882875
+- Proposta de projeto escolhida: Catálogo de Filmes
+- Breve descrição sobre seu projeto: Este é um projeto feito com Linguagem HTML, CSS e JAVASCRIPT, que visa demonstrar os conhecimentos adquiridos nas ultimas semanas de aula. O catalogo de filmes possui cards e layouts responsivos feitos com JS e Bootstrap, respectivamente. As páginas mostram o conteúdo de filmes, suas descrições e trailers.
 
 ## Print da versão responsiva com CSS puro
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Versão CSS](imagens/cs.jpg)
+![Versão CSS](imagens/css.jpg)
+
 
 ## Print da versão responsiva com Bootstrap
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Versão bootstrap](imagens/boot.jpg)
+![Versão bootstrap](imagens/boots.jpg)
+![Versão bootstrap](imagens/trap.jpg)
+
+
+## Prints gerais
+
+![Prints gerais](imagens/print1.jpg)
+![Prints gerais](imagens/print2.jpg)
+![Prints gerais](imagens/print3.jpg)
