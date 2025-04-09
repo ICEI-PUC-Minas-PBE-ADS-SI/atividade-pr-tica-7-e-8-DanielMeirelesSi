@@ -19,20 +19,20 @@ Leia o enunciado completo no Canvas.
 
 ## Print da versão responsiva com CSS puro
 
-![Versão CSS](imagens/cs.jpg)
-![Versão CSS](imagens/css.jpg)
+![Versão CSS](public/imagens/cs.jpg)
+![Versão CSS](public/imagens/css.jpg)
 
 
 ## Print da versão responsiva com Bootstrap
 
-![Versão bootstrap](imagens/boot.jpg)
-![Versão bootstrap](imagens/boots.jpg.jpg)
-![Versão bootstrap](imagens/trap.jpg)
+![Versão bootstrap](public/imagens/boot.jpg)
+![Versão bootstrap](public/imagens/boots.jpg.jpg)
+![Versão bootstrap](public/imagens/trap.jpg)
 
 
 ## Prints gerais
 
-![Prints gerais](imagens/print1.jpg)
-![Prints gerais](imagens/print2.jpg)
-![Prints gerais](imagens/print3.jpg.jpg)
-![Prints gerais](imagens/print4.jpg)
+![Prints gerais](public/imagens/print1.jpg)
+![Prints gerais](public/imagens/print2.jpg)
+![Prints gerais](public/imagens/print3.jpg.jpg)
+![Prints gerais](public/imagens/print4.jpg)
