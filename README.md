@@ -26,7 +26,7 @@ Leia o enunciado completo no Canvas.
 ## Print da versão responsiva com Bootstrap
 
 ![Versão bootstrap](imagens/boot.jpg)
-![Versão bootstrap](imagens/boots.jpg)
+![Versão bootstrap](imagens/boots.jpg.jpg)
 ![Versão bootstrap](imagens/trap.jpg)
 
 
@@ -34,4 +34,5 @@ Leia o enunciado completo no Canvas.
 
 ![Prints gerais](imagens/print1.jpg)
 ![Prints gerais](imagens/print2.jpg)
-![Prints gerais](imagens/print3.jpg)
+![Prints gerais](imagens/print3.jpg.jpg)
+![Prints gerais](imagens/print4.jpg)
